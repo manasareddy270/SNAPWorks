@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="Dec12345"/>
+  <parameter name="name" value="mpothula"/>
+  <parameter name="url" value="https://dhs9931dsh10/SNAPWorks/workerportal"/>
+  <parameter name="Browser" value="Chrome"/>
+  <test name="TestChrome(failed)">
+    <parameter name="password" value="Dec12345"/>
+    <parameter name="name" value="mpothula"/>
+    <parameter name="url" value="https://dhs9931dsh10/SNAPWorks/workerportal"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.snapworks.tests.SNAPAdminFullTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="getScrnCapture"/>
+          <include name="ValidateAnnouncements"/>
+        </methods>
+      </class> <!-- com.snapworks.tests.SNAPAdminFullTest -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestChrome">
+     	<parameter name="Browser" value="Chrome"></parameter>
+   		<parameter name="name" value="mpothula"></parameter>
+		<parameter name="password" value="Dec12345"></parameter>
+		<parameter name="url" value="https://dhs9931dsh10/SNAPWorks/workerportal"></parameter>
+		<classes> 
+		<class name="com.snapworks.tests.SNAPAdminFullTest"/>
+		 <!-- 
+		 <class name="com.snapworks.tests.SNAPAdminFullTest"/>
+		 	<class name="com.snapworks.tests.AdminAplicationConfigurationTest"/>
+		 	 <class name="com.snapworks.tests.AccessControlTest"/>
+		 	 <class name="com.snapworks.tests.ProviderManagementTest"/>
+		  <class name="com.snapworks.tests.AdminAplicationConfigurationTest"/>
+		  <class name="com.snapworks.tests.AccessControlTest"/>
+		  -->  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

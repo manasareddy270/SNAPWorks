@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="8" name="TestChrome">
+     	<parameter name="Browser" value="Chrome"></parameter>
+   		<parameter name="name" value="manasa.pothula@arkansas.gov"></parameter>
+		<parameter name="password" value="ABCabc2!"></parameter>
+		<parameter name="url" value="https://dhs9931dsh10.dhhs.arkgov.net/SNAPWorks/providerportal"></parameter>
+		
+		<parameter name="Adminlogin" value="mpothula"></parameter>
+		<parameter name="Adminpassword" value="Dec12345"></parameter>
+		<parameter name="Adminurl" value="https://dhs9931dsh10.dhhs.arkgov.net/SNAPWorks/workerportal"></parameter> 
+		<classes> 
+		<class name="com.snapworks.tests.SnapWorksClientFullTest"/>
+   <!--  <class name="com.snapworks.tests.NonComplianceTest"/>
+   		 
+		<class name="com.snapworks.tests.EmploymentPlanTest"/>
+		<class name="com.snapworks.tests.SanpWorksFullTest"/>
+   		<class name="com.snapworks.tests.ReimbursementTest"/>
+		<class name="com.snapworks.tests.Login"/>
+  	    <class name="com.snapworks.tests.ComponentTest"/>
+		<class name="com.snapworks.tests.SanpWorksFullTest"/>
+   	    <class name="com.snapworks.tests.ReportsTest"/> 
+   	    <class name="com.snapworks.tests.Login"/>
+   	    <class name="com.snapworks.tests.SanpWorksFullTest"/
+      	<class name="com.snapworks.tests.AnnouncementsTest"/>
+      <class name="com.snapworks.tests.TasksStatsTest"/>
+      <class name="com.snapworks.tests.SanpWorksFullTest"/>
+      <class name="com.snapworks.tests.NonComplianceTest"/>
+      <class name="com.snapworks.tests.SearchPageTest"/>
+      <class name="com.snapworks.tests.AppointmentTest"/>
+      <class name="com.snapworks.tests.LoginTestReport"/>
+      <class name="com.snapworks.tests.CaseNotesTest"/>
+      <class name="com.snapworks.tests.AssessmentTest"/>
+      <class name="com.snapworks.tests.Login"/>
+      <class name="com.snapworks.tests.ContactHistoryTest"/>
+      <class name="com.snapworks.tests.ReimbursementTest"/>
+      <class name="com.snapworks.tests.CreateTaskTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
