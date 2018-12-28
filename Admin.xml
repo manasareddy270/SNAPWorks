@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="TestChrome">
      	<parameter name="Browser" value="Chrome"></parameter>
-   		<parameter name="name" value="mpothula"></parameter>
-		<parameter name="password" value="Dec12345"></parameter>
-		<parameter name="url" value="https://dhs9931dsh10/SNAPWorks/workerportal"></parameter>
+   		<parameter name="name" value="username"></parameter>
+		<parameter name="password" value="password"></parameter>
+		<parameter name="url" value="https:url"></parameter>
 		<classes> 
 		<class name="com.snapworks.tests.SNAPAdminFullTest"/>
 		 <!-- 
