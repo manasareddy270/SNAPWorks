@@ -3,13 +3,13 @@
 <suite name="Suite">
   <test thread-count="8" name="TestChrome">
      	<parameter name="Browser" value="Chrome"></parameter>
-   		<parameter name="name" value="manasa.pothula@arkansas.gov"></parameter>
-		<parameter name="password" value="ABCabc2!"></parameter>
-		<parameter name="url" value="https://dhs9931dsh10.dhhs.arkgov.net/SNAPWorks/providerportal"></parameter>
+   		<parameter name="name" value="manasa"></parameter>
+		<parameter name="password" value="abc123"></parameter>
+		<parameter name="url" value="https:urlname"></parameter>
 		
-		<parameter name="Adminlogin" value="mpothula"></parameter>
-		<parameter name="Adminpassword" value="Dec12345"></parameter>
-		<parameter name="Adminurl" value="https://dhs9931dsh10.dhhs.arkgov.net/SNAPWorks/workerportal"></parameter> 
+		<parameter name="Adminlogin" value="manasa"></parameter>
+		<parameter name="Adminpassword" value="password"></parameter>
+		<parameter name="Adminurl" value="url"></parameter> 
 		<classes> 
 		<class name="com.snapworks.tests.SnapWorksClientFullTest"/>
    <!--  <class name="com.snapworks.tests.NonComplianceTest"/>
